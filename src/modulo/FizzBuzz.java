@@ -26,6 +26,8 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
+	if (1 % 3 == 0) {
+System.out.println();
+}
 }
 
