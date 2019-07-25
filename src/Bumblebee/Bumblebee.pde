@@ -41,12 +41,26 @@ void drawBeeFace(int BeeFaceX, int BeeFaceY) {
 
 void setup() {
      ellipseMode(CENTER);
-     size(500, 500);
+     size(500,500);
      background(160, 160, 160);
      drawFlower(350,100);
      
-     drawBeeFace(100,350);
+   int x =60;
+   int y =300;
+   for(int i=0;i<19;i++) {
+   ellipse(x,y,60,60);
+   x-=20;
+   y-=20;
+drawBeeFace(90,320);
+ if (i % 2 ==0) {
+  fill(255,255,0);
+ }
+ else {
+   fill(0,0,0);
+ 
 }
+}
+ }
 
 
 
