@@ -11,7 +11,7 @@ public class BirthdayReminder {
 	public static void main(String[] args) {
 	
 		// 1. correct the birthdays for your family below
-		String momsBirthday = "July 4th";
+		String momsBirthday = "July 5th";
 		String dadsBirthday = "Semptember 19th";
 		String myBirthday = "July 16th";
 
@@ -22,7 +22,7 @@ public class BirthdayReminder {
 		// 4. if user asked for "mom"
 		if (x.equals("mom")) {
 			//print mom's birthday
-			System.out.println("July 4th"); }
+			System.out.println("July 5th"); }
 		// 5. if user asked for "dad"
 		if (x.equals("dad")) {
 			// print dad's birthday
